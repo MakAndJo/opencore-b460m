@@ -264,8 +264,6 @@
 				<string>AMD Radeon RX6600</string>
 				<key>shikigva</key>
 				<integer>128</integer>
-				<key>unfairgva</key>
-				<data>AgAAAA==</data>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x1)</key>
 			<dict>
@@ -1421,7 +1419,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>agdpmod=pickera</string>
+				<string>agdpmod=pickera -v</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
